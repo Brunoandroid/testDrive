@@ -11,17 +11,15 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Text("Ola Mundo")
-            
             Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("Clique aqui")
+                Text("Clique me")
                     .bold()
-                    .foregroundColor(.red)
             }
-            
-            
-        }
+            .frame(width: 100.0, height: 50.0)
+            .accentColor(/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/)
+            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.green/*@END_MENU_TOKEN@*/)
         
+        }
         
     }
 }
